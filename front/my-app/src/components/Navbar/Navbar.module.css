@@ -1,0 +1,46 @@
+.containerNavbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(95, 33, 150);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerBotonera1{
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerBotonera2{
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonNavbar{
+    font-size: 17px;
+    margin: 0 10px;
+    box-shadow: none;
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 786px) {
+
+    .containerNavbar{
+        
+        display: none;
+    
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .containerNavbar{
+        
+        display: none;
+    
+    }
+}

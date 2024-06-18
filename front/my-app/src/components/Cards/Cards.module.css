@@ -1,0 +1,23 @@
+.bgCards{
+    /* background: url('../../assets/fondo2.jpg'); */
+    background: linear-gradient(to bottom, #f8d2b5, #f3b5f8);
+    
+}
+
+
+.bgBanner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(to right, #59016c, #341058);
+}
+
+.bgOrders{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #59016c, #341058);
+}
